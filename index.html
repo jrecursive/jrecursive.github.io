@@ -219,15 +219,6 @@
 <li><a href="http://ganeshtiwaridotcomdotnp.blogspot.com/2011/12/opencv-javacv-eclipse-project.html">http://ganeshtiwaridotcomdotnp.blogspot.com/2011/12/opencv-javacv-eclipse-project.html</a></li>
 <li><a href="http://ganeshtiwaridotcomdotnp.blogspot.com/search/label/OpenCV-JavaCV">http://ganeshtiwaridotcomdotnp.blogspot.com/search/label/OpenCV-JavaCV</a></li>
 </ul><h3>
-<a name="misc" class="anchor" href="#misc"><span class="octicon octicon-link"></span></a>misc</h3>
-
-<ul>
-<li>moving average, awk: 
-<code>
-awk 'BEGIN{sz=5} {mod=NR%sz; if(NR&lt;=sz){count++}else{sum-=array[mod]};sum+=$1;array[mod]=$1;print sum/count}' 
-</code>
-</li>
-</ul><h3>
 <a name="solr" class="anchor" href="#solr"><span class="octicon octicon-link"></span></a>solr</h3>
 
 <ul>
@@ -253,16 +244,6 @@ awk 'BEGIN{sz=5} {mod=NR%sz; if(NR&lt;=sz){count++}else{sum-=array[mod]};sum+=$1
 <li><p>Well-known Text (spatial markup) <a href="http://en.wikipedia.org/wiki/Well-known_text">http://en.wikipedia.org/wiki/Well-known_text</a></p></li>
 <li><p>solr examples <a href="https://github.com/ryantxu/spatial-solr-sandbox">https://github.com/ryantxu/spatial-solr-sandbox</a></p></li>
 <li><p>language bindings <a href="http://wiki.apache.org/solr/IntegratingSolr">http://wiki.apache.org/solr/IntegratingSolr</a></p></li>
-</ul><h3>
-<a name="mathematica" class="anchor" href="#mathematica"><span class="octicon octicon-link"></span></a>mathematica</h3>
-
-<ul>
-<li><a href="http://reference.wolfram.com/mathematica/ref/ImprovementImportance.html">http://reference.wolfram.com/mathematica/ref/ImprovementImportance.html</a></li>
-<li><a href="http://reference.wolfram.com/mathematica/ref/RiskReductionImportance.html">http://reference.wolfram.com/mathematica/ref/RiskReductionImportance.html</a></li>
-<li><a href="http://reference.wolfram.com/mathematica/ref/BirnbaumImportance.html">http://reference.wolfram.com/mathematica/ref/BirnbaumImportance.html</a></li>
-<li><a href="http://reference.wolfram.com/mathematica/ref/BarlowProschanImportance.html">http://reference.wolfram.com/mathematica/ref/BarlowProschanImportance.html</a></li>
-<li><a href="http://reference.wolfram.com/mathematica/ref/RiskAchievementImportance.html">http://reference.wolfram.com/mathematica/ref/RiskAchievementImportance.html</a></li>
-<li><a href="http://reference.wolfram.com/mathematica/ref/BooleanConsecutiveFunction.html">http://reference.wolfram.com/mathematica/ref/BooleanConsecutiveFunction.html</a></li>
 </ul><h3>
 <a name="objc" class="anchor" href="#objc"><span class="octicon octicon-link"></span></a>objc</h3>
 
@@ -290,21 +271,66 @@ awk 'BEGIN{sz=5} {mod=NR%sz; if(NR&lt;=sz){count++}else{sum-=array[mod]};sum+=$1
 <li>database operators <a href="http://msdn.microsoft.com/en-us/library/aa178407(v=sql.80)">http://msdn.microsoft.com/en-us/library/aa178407(v=sql.80)</a>
 </li>
 </ul><h3>
-<a name="data-sources" class="anchor" href="#data-sources"><span class="octicon octicon-link"></span></a>data sources</h3>
+<a name="misc" class="anchor" href="#misc"><span class="octicon octicon-link"></span></a>misc</h3>
+
+<ul>
+<li>moving average, awk: </li>
+</ul><pre><code>awk 'BEGIN{sz=5} {mod=NR%sz; if(NR&lt;=sz){count++}else{sum-=array[mod]};sum+=$1;array[mod]=$1;print sum/count}' 
+</code></pre>
+
+<h3>
+<a name="hbase-resources" class="anchor" href="#hbase-resources"><span class="octicon octicon-link"></span></a>hbase resources</h3>
+
+<ul>
+<li><a href="http://www.slideshare.net/alexbaranau/intro-to-hbase-internals-schema-design-for-hbase-users">http://www.slideshare.net/alexbaranau/intro-to-hbase-internals-schema-design-for-hbase-users</a></li>
+<li><a href="http://www.cloudera.com/resource/hbasecon-2012-learning-hbase-internals/">http://www.cloudera.com/resource/hbasecon-2012-learning-hbase-internals/</a></li>
+<li><a href="http://www.larsgeorge.com/2009/02/mini-local-hbase-cluster.html">http://www.larsgeorge.com/2009/02/mini-local-hbase-cluster.html</a></li>
+<li><a href="http://www.larsgeorge.com/2009/01/changing-hbase-tables-in-code.html">http://www.larsgeorge.com/2009/01/changing-hbase-tables-in-code.html</a></li>
+<li><a href="https://era.library.ualberta.ca/public/view/item/uuid:4667773a-8015-4c9f-89db-44ca71580c7c">https://era.library.ualberta.ca/public/view/item/uuid:4667773a-8015-4c9f-89db-44ca71580c7c</a></li>
+<li><a href="https://blogs.apache.org/hbase/entry/coprocessor_introduction">https://blogs.apache.org/hbase/entry/coprocessor_introduction</a></li>
+</ul><h3>
+<a name="mathematica" class="anchor" href="#mathematica"><span class="octicon octicon-link"></span></a>mathematica</h3>
+
+<ul>
+<li><a href="http://reference.wolfram.com/mathematica/ref/ImprovementImportance.html">http://reference.wolfram.com/mathematica/ref/ImprovementImportance.html</a></li>
+<li><a href="http://reference.wolfram.com/mathematica/ref/RiskReductionImportance.html">http://reference.wolfram.com/mathematica/ref/RiskReductionImportance.html</a></li>
+<li><a href="http://reference.wolfram.com/mathematica/ref/BirnbaumImportance.html">http://reference.wolfram.com/mathematica/ref/BirnbaumImportance.html</a></li>
+<li><a href="http://reference.wolfram.com/mathematica/ref/BarlowProschanImportance.html">http://reference.wolfram.com/mathematica/ref/BarlowProschanImportance.html</a></li>
+<li><a href="http://reference.wolfram.com/mathematica/ref/RiskAchievementImportance.html">http://reference.wolfram.com/mathematica/ref/RiskAchievementImportance.html</a></li>
+<li><a href="http://reference.wolfram.com/mathematica/ref/BooleanConsecutiveFunction.html">http://reference.wolfram.com/mathematica/ref/BooleanConsecutiveFunction.html</a></li>
+<li><a href="http://reference.wolfram.com/mathematica/ref/KarhunenLoeveDecomposition.html">http://reference.wolfram.com/mathematica/ref/KarhunenLoeveDecomposition.html</a></li>
+<li><a href="http://reference.wolfram.com/mathematica/guide/CurveFittingAndApproximateFunctions.html">http://reference.wolfram.com/mathematica/guide/CurveFittingAndApproximateFunctions.html</a></li>
+<li><a href="http://reference.wolfram.com/mathematica/guide/Statistics.html">http://reference.wolfram.com/mathematica/guide/Statistics.html</a></li>
+<li><a href="http://reference.wolfram.com/mathematica/ref/DistributionFitTest.html">http://reference.wolfram.com/mathematica/ref/DistributionFitTest.html</a></li>
+<li><a href="http://reference.wolfram.com/mathematica/ref/EstimatedDistribution.html">http://reference.wolfram.com/mathematica/ref/EstimatedDistribution.html</a></li>
+<li><a href="http://reference.wolfram.com/mathematica/tutorial/PartitioningDataIntoClusters.html">http://reference.wolfram.com/mathematica/tutorial/PartitioningDataIntoClusters.html</a></li>
+<li><a href="http://reference.wolfram.com/mathematica/tutorial/UsingNearest.html">http://reference.wolfram.com/mathematica/tutorial/UsingNearest.html</a></li>
+<li><a href="http://reference.wolfram.com/mathematica/guide/ProcessingTextualData.html">http://reference.wolfram.com/mathematica/guide/ProcessingTextualData.html</a></li>
+<li><a href="http://reference.wolfram.com/mathematica/ref/Fit.html">http://reference.wolfram.com/mathematica/ref/Fit.html</a></li>
+<li><a href="http://reference.wolfram.com/mathematica/ref/LinearProgramming.html">http://reference.wolfram.com/mathematica/ref/LinearProgramming.html</a></li>
+<li><a href="http://reference.wolfram.com/mathematica/tutorial/NumericalOptimization.html">http://reference.wolfram.com/mathematica/tutorial/NumericalOptimization.html</a></li>
+<li><a href="http://reference.wolfram.com/mathematica/tutorial/ConstrainedOptimizationOverview.html">http://reference.wolfram.com/mathematica/tutorial/ConstrainedOptimizationOverview.html</a></li>
+<li><a href="http://reference.wolfram.com/mathematica/tutorial/UnconstrainedOptimizationOverview.html">http://reference.wolfram.com/mathematica/tutorial/UnconstrainedOptimizationOverview.html</a></li>
+<li><a href="http://reference.wolfram.com/mathematica/tutorial/SolvingLinearSystems.html">http://reference.wolfram.com/mathematica/tutorial/SolvingLinearSystems.html</a></li>
+<li><a href="http://reference.wolfram.com/mathematica/tutorial/CurveFitting.html">http://reference.wolfram.com/mathematica/tutorial/CurveFitting.html</a></li>
+<li><a href="http://reference.wolfram.com/mathematica/guide/Optimization.html">http://reference.wolfram.com/mathematica/guide/Optimization.html</a></li>
+<li><a href="http://reference.wolfram.com/mathematica/LinearRegression/guide/LinearRegressionPackage.html">http://reference.wolfram.com/mathematica/LinearRegression/guide/LinearRegressionPackage.html</a></li>
+</ul><h3>
+<a name="streaming-data-test-sources" class="anchor" href="#streaming-data-test-sources"><span class="octicon octicon-link"></span></a>streaming data test sources</h3>
 
 <ul>
 <li>telnet bitcoincharts.com 27007</li>
 <li>wssh -n "ws://websocket.mtgox.com:80/mtgox?Currency=USD"</li>
-<li>bitcoin txns
-<code>
-wssh -n ws://api.blockchain.info:8335/inv
+<li>bitcoin txns</li>
+</ul><pre><code>wssh -n ws://api.blockchain.info:8335/inv
 {"op":"unconfirmed_sub"}
 {"op":"addr_sub", "addr":"$bitcoin_address"}
 {"op":"blocks_sub"}
 {"op":"ping_block"}
 {"op":"ping_tx"}
-</code>
-</li>
+</code></pre>
+
+<ul>
 <li><a href="http://blockchain.info/stats?format=json">http://blockchain.info/stats?format=json</a></li>
 <li><a href="https://en.bitcoin.it/wiki/MtGox/API/Streaming">https://en.bitcoin.it/wiki/MtGox/API/Streaming</a></li>
 <li>irc.freenode.net #bitcoin-watch</li>
